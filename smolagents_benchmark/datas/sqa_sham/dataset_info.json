@@ -1,0 +1,68 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "codeagent-traces",
+  "dataset_size": 1081039518,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/smolagents/codeagent-traces@14d076a56ed706eecb5664c08f546a0bdf180cf3/data/train-00000-of-00002.parquet": {
+      "num_bytes": 111227985,
+      "checksum": null
+    },
+    "hf://datasets/smolagents/codeagent-traces@14d076a56ed706eecb5664c08f546a0bdf180cf3/data/train-00001-of-00002.parquet": {
+      "num_bytes": 119630883,
+      "checksum": null
+    },
+    "hf://datasets/smolagents/codeagent-traces@14d076a56ed706eecb5664c08f546a0bdf180cf3/data/filtered-00000-of-00001.parquet": {
+      "num_bytes": 134897908,
+      "checksum": null
+    }
+  },
+  "download_size": 365756776,
+  "features": {
+    "source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "true_answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1446796294,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 695557005,
+      "num_examples": 32965,
+      "shard_lengths": [
+        24483,
+        8482
+      ],
+      "dataset_name": "codeagent-traces"
+    },
+    "filtered": {
+      "name": "filtered",
+      "num_bytes": 385482513,
+      "num_examples": 17073,
+      "dataset_name": "codeagent-traces"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

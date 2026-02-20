@@ -1,0 +1,10 @@
+.DS_Store
+cache-*.arrow
+.env
+*.out
+
+.vscode/
+outputs/
+results*/
+build/
+logs/
