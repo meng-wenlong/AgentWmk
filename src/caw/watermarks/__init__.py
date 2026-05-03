@@ -5,6 +5,9 @@ from .file_create_check import FileCreateCheckWatermark
 from .check_network import CheckNetworkWatermark
 from .visit_web import VisitWebWatermark
 from .codemark import CodeMarkWatermark
+from .autopoison import AutoPoisonWatermark
+from .deadcode import DeadCodeWatermark
+from .style_transfer import StyleTransferWatermark
 
 all_watermarks = [
     TaskVerificationWatermark,
@@ -14,4 +17,7 @@ all_watermarks = [
     CheckNetworkWatermark,
     VisitWebWatermark,
     CodeMarkWatermark,
+    AutoPoisonWatermark,
+    DeadCodeWatermark,
+    StyleTransferWatermark,
 ]
